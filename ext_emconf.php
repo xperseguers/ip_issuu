@@ -1,9 +1,9 @@
 <?php
 
 ########################################################################
-# Extension Manager/Repository config file for ext "issuu".
+# Extension Manager/Repository config file for ext "ip_issuu".
 #
-# Auto generated 26-06-2011 14:21
+# Auto generated 26-06-2011 17:18
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -17,7 +17,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'author' => 'Ingo Pfennigstorf',
 	'author_email' => 'i.pfennigstorf@gmail.com',
 	'shy' => '',
-	'dependencies' => '',
+	'dependencies' => 'extbase,fluid',
 	'conflicts' => '',
 	'priority' => '',
 	'module' => '',
@@ -29,11 +29,11 @@ $EM_CONF[$_EXTKEY] = array(
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
 	'author_company' => '',
-	'version' => '0.2.0',
+	'version' => '0.0.3',
 	'constraints' => array(
 		'depends' => array(
-			'Extbase' => '',
-			'Fluid' => ''
+			'extbase' => '',
+			'fluid' => '',
 		),
 		'conflicts' => array(
 		),
@@ -42,7 +42,7 @@ $EM_CONF[$_EXTKEY] = array(
 	),
 	'suggests' => array(
 	),
-	'_md5_values_when_last_written' => 'a:12:{s:9:"ChangeLog";s:4:"6838";s:10:"README.txt";s:4:"b7be";s:12:"ext_icon.gif";s:4:"2f2c";s:17:"ext_localconf.php";s:4:"240b";s:14:"ext_tables.php";s:4:"343c";s:16:"locallang_db.xml";s:4:"408c";s:28:"Classes/Controller/Index.php";s:4:"0edc";s:42:"Configuration/Flexform/flexform_ds_pi1.xml";s:4:"de8a";s:41:"Resources/Private/Language/locallang.xml";s:4:"4c02";s:45:"Resources/Private/Templates/Index/Index.html";s:4:"f590";s:14:"doc/manual.sxw";s:4:"6f65";s:28:"pi1/class.tx_ipissuu_pi1.php";s:4:"c223";}',
+	'_md5_values_when_last_written' => 'a:10:{s:9:"ChangeLog";s:4:"eddc";s:10:"README.txt";s:4:"dfe7";s:16:"ext_autoload.php";s:4:"aa9f";s:12:"ext_icon.gif";s:4:"2f2c";s:17:"ext_localconf.php";s:4:"b40c";s:14:"ext_tables.php";s:4:"f707";s:28:"Classes/Controller/Index.php";s:4:"01d9";s:42:"Configuration/Flexform/flexform_ds_pi1.xml";s:4:"50c4";s:44:"Resources/Private/Templates/Index/Index.html";s:4:"f590";s:14:"doc/manual.sxw";s:4:"cc83";}',
 );
 
 ?>

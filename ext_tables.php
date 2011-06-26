@@ -3,9 +3,6 @@ if (!defined ('TYPO3_MODE')) {
 	die ('Access denied.');
 }
 
-t3lib_div::loadTCA('tt_content');
-$TCA['tt_content']['types']['list']['subtypes_excludelist'][$_EXTKEY.'_pi1']='layout,select_key';
-
 	// Registering as Plugin
 Tx_Extbase_Utility_Extension::registerPlugin(
 	$_EXTKEY,
@@ -14,6 +11,11 @@ Tx_Extbase_Utility_Extension::registerPlugin(
 );
 
 	// Flexform stuff
-$TCA['tt_content']['types']['list']['subtypes_addlist'][$_EXTKEY.'_pi1'] ='pi_flexform';
-t3lib_extMgm::addPiFlexFormValue($_EXTKEY.'_pi1', 'FILE:EXT:'.$_EXTKEY . '/Configuration/Flexform/flexform_ds_pi1.xml');
+$extensionName = t3lib_div::underscoredToUpperCamelCase($_EXTKEY);
+$pluginSignature = strtolower($extensionName) . '_pi1';
+
+$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$pluginSignature] = 'layout,select_key,recursive';
+$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$pluginSignature] = 'pi_flexform';
+t3lib_extMgm::addPiFlexFormValue($pluginSignature, 'FILE:EXT:' . $_EXTKEY . '/Configuration/Flexform/flexform_ds_pi1.xml');
+
 ?>

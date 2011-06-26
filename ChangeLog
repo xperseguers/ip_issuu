@@ -1,6 +1,8 @@
 2011-06-26 - Ingo Pfennigstorf <i.pfennigstorf@gmail.com>
 	* Refactoring Code and transfer to ExtBase
 	* Big improvements in Codeparsing
+	* Bugfixes
+	* Updated manual
 
 2010-01-10
 	* Added new Icon

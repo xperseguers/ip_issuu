@@ -22,7 +22,7 @@
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
 
-class Tx_Issuu_Controller_IndexController extends Tx_Extbase_MVC_Controller_ActionController{
+class Tx_IpIssuu_Controller_IndexController extends Tx_Extbase_MVC_Controller_ActionController{
 
 		// SWFObject Version to fetch
 	protected $swfObjectVersion = '2.2';
