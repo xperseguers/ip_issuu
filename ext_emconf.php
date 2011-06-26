@@ -1,13 +1,13 @@
 <?php
 
 ########################################################################
-# Extension Manager/Repository config file for ext: "ip_issuu"
+# Extension Manager/Repository config file for ext "issuu".
 #
-# Auto generated 18-11-2009 12:00
+# Auto generated 26-06-2011 14:21
 #
 # Manual updates:
-# Only the data in the array - anything else is removed by next write.
-# "version" and "dependencies" must not be touched!
+# Only the data in the array - everything else is removed by next
+# writing. "version" and "dependencies" must not be touched!
 ########################################################################
 
 $EM_CONF[$_EXTKEY] = array(
@@ -21,7 +21,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'conflicts' => '',
 	'priority' => '',
 	'module' => '',
-	'state' => 'alpha',
+	'state' => 'beta',
 	'internal' => '',
 	'uploadfolder' => 0,
 	'createDirs' => '',
@@ -29,9 +29,11 @@ $EM_CONF[$_EXTKEY] = array(
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
 	'author_company' => '',
-	'version' => '0.0.2',
+	'version' => '0.2.0',
 	'constraints' => array(
 		'depends' => array(
+			'Extbase' => '',
+			'Fluid' => ''
 		),
 		'conflicts' => array(
 		),
@@ -40,7 +42,7 @@ $EM_CONF[$_EXTKEY] = array(
 	),
 	'suggests' => array(
 	),
-	'_md5_values_when_last_written' => 'a:10:{s:9:"ChangeLog";s:4:"ff47";s:10:"README.txt";s:4:"b620";s:12:"ext_icon.gif";s:4:"1bdc";s:17:"ext_localconf.php";s:4:"3d82";s:14:"ext_tables.php";s:4:"d71a";s:19:"flexform_ds_pi1.xml";s:4:"27fa";s:16:"locallang_db.xml";s:4:"408c";s:14:"doc/manual.sxw";s:4:"d0c3";s:28:"pi1/class.tx_ipissuu_pi1.php";s:4:"af19";s:17:"pi1/locallang.xml";s:4:"4c02";}',
+	'_md5_values_when_last_written' => 'a:12:{s:9:"ChangeLog";s:4:"6838";s:10:"README.txt";s:4:"b7be";s:12:"ext_icon.gif";s:4:"2f2c";s:17:"ext_localconf.php";s:4:"240b";s:14:"ext_tables.php";s:4:"343c";s:16:"locallang_db.xml";s:4:"408c";s:28:"Classes/Controller/Index.php";s:4:"0edc";s:42:"Configuration/Flexform/flexform_ds_pi1.xml";s:4:"de8a";s:41:"Resources/Private/Language/locallang.xml";s:4:"4c02";s:45:"Resources/Private/Templates/Index/Index.html";s:4:"f590";s:14:"doc/manual.sxw";s:4:"6f65";s:28:"pi1/class.tx_ipissuu_pi1.php";s:4:"c223";}',
 );
 
 ?>

@@ -2,15 +2,13 @@
 	<meta>
 		<langDisable>1</langDisable>
 	</meta>
-	<sheets>
-		<sDEF>
 			<ROOT>
 				<TCEforms>
 					<sheetTitle>Options</sheetTitle>
 				</TCEforms>
 				<type>array</type>
 				<el>
-					<jCode>
+					<settings.jCode>
 						<TCEforms>
 							<label>Joomla Code for Issuu</label>
 							<config>
@@ -20,18 +18,15 @@
 								<eval>required</eval>
 							</config>
 						</TCEforms>
-					</jCode>
-					<flashTrans>
+					</settings.jCode>
+					<settings.flashTrans>
 						<TCEforms>
 							<label>Transparent Flash</label>
 							<config>
 								<type>check</type>
 							</config>
 						</TCEforms>
-					</flashTrans>
+					</settings.flashTrans>
 				</el>
-
 			</ROOT>
-		</sDEF>
-	</sheets>
 </T3DataStructure>

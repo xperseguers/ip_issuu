@@ -1,17 +1,17 @@
-2010-01-10
+2011-06-26 - Ingo Pfennigstorf <i.pfennigstorf@gmail.com>
+	* Refactoring Code and transfer to ExtBase
+	* Big improvements in Codeparsing
 
+2010-01-10
 	* Added new Icon
 	* Code Improvements
 	* added transparent Flash mode (experimental)
 
 2009-11-19	Release v0.0.3
-
 	* Minor improvements, Cleaned up Code
 
 2009-11-18	First Release
-
 	* v.0.0.2
 
 2009-11-17 Ingo Pfennigstorf  <i.pfennigstorf@gmail.com>
-
 	* initial code

@@ -2,6 +2,13 @@
 if (!defined ('TYPO3_MODE')) {
  	die ('Access denied.');
 }
+	// Configuring Frontend Plugin
+Tx_Extbase_Utility_Extension::configurePlugin(
+	$_EXTKEY,
+	'pi1',
+	array(
+		'Index' => 'index'
+	)
+);
 
-t3lib_extMgm::addPItoST43($_EXTKEY, 'pi1/class.tx_ipissuu_pi1.php', '_pi1', 'list_type', 1);
 ?>
