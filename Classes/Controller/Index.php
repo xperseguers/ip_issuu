@@ -87,9 +87,13 @@ class Tx_IpIssuu_Controller_IndexController extends Tx_Extbase_MVC_Controller_Ac
 			</script>'
 		);
 
-		$this->view->assign("issuuWidth", $this->flip->getWidth().$this->flip->getUnit());
-		$this->view->assign("issuuHeight", $this->flip->getHeight().$this->flip->getUnit());
-		$this->view->assign("issuId", $this->flip->getDocumentid());
+		$viewVars = array(
+			'issuuWidth' => $this->flip->getWidth().$this->flip->getUnit(),
+			'issuuHeight' => $this->flip->getHeight().$this->flip->getUnit(),
+			'issuId' => $this->flip->getDocumentid()
+		);
+
+		$this->view->assignMultiple($viewVars);
 	}
 
 	/**
@@ -135,7 +139,7 @@ class Tx_IpIssuu_Controller_IndexController extends Tx_Extbase_MVC_Controller_Ac
 	 * 
 	 * @return string
 	 */
-	private function getTransparentMode(){
+	protected function getTransparentMode(){
 
 		$this->flip->getFlashTransparent === 1 ? $wmode = 'wmode: \'transparent\',' : $wmode = '';
 
