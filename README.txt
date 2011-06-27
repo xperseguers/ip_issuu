@@ -1,4 +1,4 @@
-This is just a simple Extension that lets you embed issuu-flip pdfs into you TYPO3-Site
+This is just a simple TYPO3 Extension that lets you embed issuu-flip pdfs into you TYPO3-Site
 
 Warning:
 As of release 0.1.0 this Extension uses Extbase and Fluid as Frameworks. So make sure you are using any TYPO3 Version

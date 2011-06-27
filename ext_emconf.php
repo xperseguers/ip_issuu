@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext "ip_issuu".
 #
-# Auto generated 26-06-2011 17:18
+# Auto generated 26-06-2011 17:20
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -29,7 +29,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
 	'author_company' => '',
-	'version' => '0.0.3',
+	'version' => '0.1.0',
 	'constraints' => array(
 		'depends' => array(
 			'extbase' => '',
