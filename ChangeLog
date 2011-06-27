@@ -1,4 +1,7 @@
-2011-06-26 - Ingo Pfennigstorf <i.pfennigstorf@gmail.com>
+2011-06-27 Ingo Pfennigstorf <i.pfennigstorf@gmail.com>
+	* Refactoring Flip PDF to work with a model and assigning variables to it
+
+2011-06-26 Ingo Pfennigstorf <i.pfennigstorf@gmail.com>
 	* Refactoring Code and transfer to ExtBase
 	* Big improvements in Codeparsing
 	* Bugfixes
