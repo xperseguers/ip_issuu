@@ -40,11 +40,21 @@ class Tx_IpIssuu_Controller_IndexController extends Tx_Extbase_MVC_Controller_Ac
 		$this->hostname = t3lib_div::getIndpEnv('TYPO3_HOST_ONLY');
 	}
 
+	/**
+	 * DI method to gain access to a flip model and its methods
+	 *
+	 * @param Tx_IpIssuu_Domain_Model_Flip $flip
+	 * @return void
+	 */
 	public function injectFlip(Tx_IpIssuu_Domain_Model_Flip $flip){
 		$this->flip = $flip;
 	}
 
-
+	/**
+	 * Index Action that reads the settings and generates Javascript data to put it into the header of the site
+	 *
+	 * @return void
+	 */
 	public function indexAction(){
 
 			// Code from Flexform
@@ -57,7 +67,8 @@ class Tx_IpIssuu_Controller_IndexController extends Tx_Extbase_MVC_Controller_Ac
 
 			// Add Data to header fpr Javascript and Flash incusion
 		$this->response->addAdditionalHeaderData(
-			'<script type="text/javascript" src="http://www.google.com/jsapi"></script><script type="text/javascript">google.load("swfobject", 2.2);</script>
+			'<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+			<script type="text/javascript">google.load("swfobject", 2.2);</script>
 			<script type="text/javascript">
 			 	var attributes = { id: \''.$this->flip->getDocumentid().'\' };
 				var params = { '.$this->getTransparentMode().' allowfullscreen: \'true\', menu: \'false\' };
@@ -92,7 +103,7 @@ class Tx_IpIssuu_Controller_IndexController extends Tx_Extbase_MVC_Controller_Ac
 			'issuuHeight' => $this->flip->getHeight().$this->flip->getUnit(),
 			'issuId' => $this->flip->getDocumentid()
 		);
-
+			// assign to fluid template
 		$this->view->assignMultiple($viewVars);
 	}
 

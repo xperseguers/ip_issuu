@@ -26,7 +26,7 @@
 /**
  * Model for a Flip Catalogue
  *
- * @author ingop
+ * @author Ingo Pfennigstorf <i.ofennigstorf@gmail.com>
  * @date 27.06.11
  **/
 class Tx_IpIssuu_Domain_Model_Flip extends Tx_Extbase_DomainObject_AbstractEntity {
@@ -260,7 +260,7 @@ class Tx_IpIssuu_Domain_Model_Flip extends Tx_Extbase_DomainObject_AbstractEntit
 	}
 
 	/**
-	 * @param boolean $showflipbtn
+	 * @param bool $showflipbtn
 	 */
 	public function setShowflipbtn($showflipbtn)
 	{
@@ -268,7 +268,7 @@ class Tx_IpIssuu_Domain_Model_Flip extends Tx_Extbase_DomainObject_AbstractEntit
 	}
 
 	/**
-	 * @return boolean
+	 * @return bool
 	 */
 	public function getShowflipbtn()
 	{
@@ -276,7 +276,7 @@ class Tx_IpIssuu_Domain_Model_Flip extends Tx_Extbase_DomainObject_AbstractEntit
 	}
 
 	/**
-	 * @param boolean $showhtmllink
+	 * @param bool $showhtmllink
 	 */
 	public function setShowhtmllink($showhtmllink)
 	{
@@ -284,7 +284,7 @@ class Tx_IpIssuu_Domain_Model_Flip extends Tx_Extbase_DomainObject_AbstractEntit
 	}
 
 	/**
-	 * @return boolean
+	 * @return bool
 	 */
 	public function getShowhtmllink()
 	{

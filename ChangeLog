@@ -1,5 +1,10 @@
+2011-06-28 Ingo Pfennigstorf <i.pfennigstorf@gmail.com>
+	* Added code comments and fixed some minor typos
+	* Added dependency for TYPO3 >= 4.5
+
 2011-06-27 Ingo Pfennigstorf <i.pfennigstorf@gmail.com>
 	* Refactoring Flip PDF to work with a model and assigning variables to it
+	* Released version 0.1.1
 
 2011-06-26 Ingo Pfennigstorf <i.pfennigstorf@gmail.com>
 	* Refactoring Code and transfer to ExtBase
@@ -7,15 +12,17 @@
 	* Bugfixes
 	* Updated manual
 
-2010-01-10
+2010-01-10 Ingo Pfennigstorf <i.pfennigstorf@gmail.com>
 	* Added new Icon
 	* Code Improvements
 	* added transparent Flash mode (experimental)
 
-2009-11-19	Release v0.0.3
+2009-11-19 Ingo Pfennigstorf <i.pfennigstorf@gmail.com>
+	* Release v0.0.3
 	* Minor improvements, Cleaned up Code
 
-2009-11-18	First Release
+2009-11-18 Ingo Pfennigstorf <i.pfennigstorf@gmail.com>
+	* First Release
 	* v.0.0.2
 
 2009-11-17 Ingo Pfennigstorf  <i.pfennigstorf@gmail.com>
