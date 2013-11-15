@@ -28,13 +28,6 @@ namespace Ipf\Issuu\Controller;
 class IndexController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
 
 	/**
-	 * current hostname
-	 *
-	 * @var string
-	 */
-	protected $hostname;
-
-	/**
 	 * @var \Ipf\Issuu\Service\EmbedCodeService
 	 * @inject
 	 */
