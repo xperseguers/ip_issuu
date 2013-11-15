@@ -4,8 +4,7 @@ namespace Ipf\Issuu\Service;
 	/* * *************************************************************
 	 *  Copyright notice
 	 *
-	 *  (c) 2013 Ingo Pfennigstorf <pfennigstorf@sub-goettingen.de>
-	 *      Goettingen State Library
+	 *  (c) 2013 Ingo Pfennigstorf <i.pfennigstorf@gmail.com>
 	 *
 	 *  All rights reserved
 	 *
@@ -27,7 +26,7 @@ namespace Ipf\Issuu\Service;
 	 * ************************************************************* */
 
 /**
- * Description
+ * Parses abd optimizes the configuration
  */
 class EmbedCodeService {
 
