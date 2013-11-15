@@ -1,6 +1,6 @@
 <?php
 
-namespace Ipf\Issuu\Controller;
+namespace Ipf\IpIssuu\Controller;
 
 /***************************************************************
  *  Copyright notice
@@ -28,7 +28,7 @@ namespace Ipf\Issuu\Controller;
 class IndexController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
 
 	/**
-	 * @var \Ipf\Issuu\Service\EmbedCodeService
+	 * @var \Ipf\IpIssuu\Service\EmbedCodeService
 	 * @inject
 	 */
 	protected $embedCodeService;

@@ -29,7 +29,7 @@
 class EmbedCodeServiceTest extends \TYPO3\CMS\Extbase\Tests\Unit\BaseTestCase {
 
 	/**
-	 * @var Ipf\Issuu\Service\EmbedCodeService
+	 * @var Ipf\IpIssuu\Service\EmbedCodeService
 	 */
 	protected $fixture;
 
@@ -52,7 +52,7 @@ class EmbedCodeServiceTest extends \TYPO3\CMS\Extbase\Tests\Unit\BaseTestCase {
 	}
 
 	public function setUp() {
-		$this->fixture = $this->getAccessibleMock('Ipf\\Issuu\\Service\\EmbedCodeService', array('dummy'));
+		$this->fixture = $this->getAccessibleMock('Ipf\\IpIssuu\\Service\\EmbedCodeService', array('dummy'));
 	}
 
 	/**

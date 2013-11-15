@@ -1,5 +1,5 @@
 <?php
-namespace Ipf\Issuu\Service;
+namespace Ipf\IpIssuu\Service;
 
 	/* * *************************************************************
 	 *  Copyright notice
