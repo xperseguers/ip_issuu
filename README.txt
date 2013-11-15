@@ -7,3 +7,7 @@ Simply add the Code new in the backend and everything will be fine again
 
 If you find any errors or want to contribute anything feel free to add a report on the project Website at
 http://forge.typo3.org/projects/extension-ip_issuu
+
+## API Key needed
+
+apply for an api key

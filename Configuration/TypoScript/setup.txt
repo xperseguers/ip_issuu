@@ -1,0 +1,14 @@
+plugin.tx_issuu {
+	settings {
+		api {
+			endPoint = http://api.issuu.com/1_0
+			uploadEndPoint = http://upload.issuu.com/1_0
+			key = {$plugin.tx_issuu.api.key}
+			secret = {$plugin.tx_issuu.api.secret}
+		}
+		appearance {
+			height = 402
+			width = 525
+		}
+	}
+}

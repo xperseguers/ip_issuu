@@ -1,0 +1,6 @@
+plugin.tx_issuu {
+	api {
+		key = yourSecretIssuuApiKey
+		secret = yourSecretIssuuApiSecret
+	}
+}

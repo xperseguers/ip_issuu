@@ -2,31 +2,45 @@
 	<meta>
 		<langDisable>1</langDisable>
 	</meta>
-			<ROOT>
+	<ROOT>
+		<TCEforms>
+			<sheetTitle>Options</sheetTitle>
+		</TCEforms>
+		<type>array</type>
+		<el>
+			<settings.jCode>
 				<TCEforms>
-					<sheetTitle>Options</sheetTitle>
+					<label>Link for the ISSUU document</label>
+					<config>
+						<size>32</size>
+						<max>1000</max>
+						<type>input</type>
+						<eval>required</eval>
+					</config>
 				</TCEforms>
-				<type>array</type>
-				<el>
-					<settings.jCode>
-						<TCEforms>
-							<label>Joomla Code for Issuu</label>
-							<config>
-								<size>32</size>
-								<max>1000</max>
-								<type>input</type>
-								<eval>required</eval>
-							</config>
-						</TCEforms>
-					</settings.jCode>
-					<settings.flashTrans>
-						<TCEforms>
-							<label>Transparent Flash</label>
-							<config>
-								<type>check</type>
-							</config>
-						</TCEforms>
-					</settings.flashTrans>
-				</el>
-			</ROOT>
+			</settings.jCode>
+			<settings.width>
+				<TCEforms>
+					<label>Width of the document (in px)</label>
+					<config>
+						<size>4</size>
+						<max>4</max>
+						<type>input</type>
+						<eval>int</eval>
+					</config>
+				</TCEforms>
+			</settings.width>
+			<settings.height>
+				<TCEforms>
+					<label>Height of the document (in px)</label>
+					<config>
+						<size>4</size>
+						<max>4</max>
+						<type>input</type>
+						<eval>int</eval>
+					</config>
+				</TCEforms>
+			</settings.height>
+		</el>
+	</ROOT>
 </T3DataStructure>
