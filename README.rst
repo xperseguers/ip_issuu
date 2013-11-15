@@ -1,4 +1,6 @@
-# ISSUU for TYPO3
+###############
+ISSUU for TYPO3
+###############
 
 This is just a simple TYPO3 Extension that lets you embed issuu-flip pdfs into you TYPO3-Site
 
