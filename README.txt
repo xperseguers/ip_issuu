@@ -1,13 +1,11 @@
+# ISSUU for TYPO3
+
 This is just a simple TYPO3 Extension that lets you embed issuu-flip pdfs into you TYPO3-Site
 
 Warning:
-As of release 0.1.0 this Extension uses Extbase and Fluid as Frameworks. So make sure you are using any TYPO3 Version
-from Version 4.5 and above. This version _may_ break the current configuration.
-Simply add the Code new in the backend and everything will be fine again
+
+The current version is only compatible to TYPO3 versions >= 6.0.0 and uses a new embeddingcode. The old Joomla! Code
+will not work anymore. Please read the Documentation for details.
 
 If you find any errors or want to contribute anything feel free to add a report on the project Website at
-http://forge.typo3.org/projects/extension-ip_issuu
-
-## API Key needed
-
-apply for an api key
+https://github.com/ipf/issuu
