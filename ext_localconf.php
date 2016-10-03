@@ -1,7 +1,6 @@
 <?php
-if (!defined('TYPO3_MODE')) {
-	die ('Access denied.');
-}
+defined('TYPO3_MODE') || die();
+
 // Configuring Frontend Plugin
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
 	'Ipf.' . $_EXTKEY,
@@ -10,5 +9,3 @@ if (!defined('TYPO3_MODE')) {
 		'Index' => 'index'
 	)
 );
-
-?>

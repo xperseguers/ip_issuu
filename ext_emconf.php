@@ -27,26 +27,25 @@ $EM_CONF[$_EXTKEY] = array (
   'clearCacheOnLoad' => 0,
   'lockType' => '',
   'author_company' => '',
-  'version' => '1.0.1',
-  'constraints' => 
+  'version' => '1.1.0-dev',
+  'constraints' =>
   array (
-    'depends' => 
+    'depends' =>
     array (
-      'typo3' => '6.0.0-6.1.99',
+      'php' => '5.5.0-7.0.99',
+      'typo3' => '6.2.0-7.6.99',
     ),
-    'conflicts' => 
+    'conflicts' =>
     array (
     ),
-    'suggests' => 
+    'suggests' =>
     array (
     ),
   ),
-  'suggests' => 
+  'suggests' =>
   array (
   ),
   '_md5_values_when_last_written' => 'a:11:{s:9:"ChangeLog";s:4:"d0eb";s:10:"README.txt";s:4:"d0a1";s:16:"ext_autoload.php";s:4:"c375";s:12:"ext_icon.gif";s:4:"2f2c";s:17:"ext_localconf.php";s:4:"b40c";s:14:"ext_tables.php";s:4:"f707";s:28:"Classes/Controller/Index.php";s:4:"dea1";s:29:"Classes/Domain/Model/Flip.php";s:4:"3637";s:42:"Configuration/Flexform/flexform_ds_pi1.xml";s:4:"50c4";s:44:"Resources/Private/Templates/Index/Index.html";s:4:"f590";s:14:"doc/manual.sxw";s:4:"cc83";}',
   'comment' => 'Fix for wrong namespace usage. Thanks to Xavier Perseguers',
   'user' => 'ingop',
 );
-
-?>
